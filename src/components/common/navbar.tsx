@@ -8,7 +8,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="w-full sticky top-0 bg-white py-6 px-6 md:px-12 flex items-center justify-between">
+        <nav className="w-full sticky top-0 z-[9999] bg-white/0   py-6 px-6 md:px-12 flex items-center justify-between">
 
             <Link href="/" className="text-2xl font-bold text-black">
                 LUSION
@@ -23,7 +23,7 @@ const Navbar = () => {
                     className="group flex items-center gap-2 py-2 px-4 md:px-6 rounded-full bg-gray-900 hover:bg-blue-600 transition-all"
                 >
                     <ArrowRight className="text-white" size={16} />
-                    <span className="text-white font-medium">LET'S TALK</span>
+                    <span className="text-white font-medium">LET&apos;S TALK</span>
                     <span className="opacity-0 group-hover:opacity-100 transition-opacity">
 
                     </span>
