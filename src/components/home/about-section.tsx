@@ -50,7 +50,7 @@ export default function LusionComponent() {
                     scrub: true,
                     pin: true,
                     pinSpacing: false,
-                    markers: false, // optional: remove in production
+                    markers: false,
                 },
             }
         );
@@ -76,6 +76,8 @@ export default function LusionComponent() {
                             willChange: "transform",
                             overflow: "visible",
                             borderRadius: "24px",
+
+
                         }}
                     >
                         <div className="absolute inset-0 bg-blue-600 opacity-40 z-10 rounded-3xl"></div>

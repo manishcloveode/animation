@@ -128,12 +128,14 @@ function ProjectCard({ project }: { project: Project }) {
     }
 
     return (
+
         <div
             ref={cardRef}
             className="group flex flex-col transform transition-transform rounded-3xl duration-300"
             onMouseEnter={() => animateCard(1.03, "0 10px 25px )", "power2.out")}
             onMouseLeave={() => animateCard(1, "none", "power2.in")}
         >
+
 
             <div className="relative rounded-3xl overflow-hidden bg-gray-50 mb-4">
                 <Link href="#" className="block relative aspect-[4/3]">
